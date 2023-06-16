@@ -1,26 +1,33 @@
-small{
-    color: dodgerblue;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.blog{
-    color: slateblue;
-    background-color: blanchedalmond;
-    border: 2px solid rgb(86, 11, 11);
-    border-radius: 10px;
-    margin-left : 5px;
-    margin-right : 5px;
-    margin-top : 20px;
-    margin-bottom : 20px;
-    padding: 10px;
+h1 {
+    font-size: 40px;
 }
 
-.blog-title{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+#orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-with {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-with img {
+    width: 70%;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(orange, red);
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: whitesmoke;
     font-weight: 900;
-    }
-
-.blog p{
-    text-align: justify;
 }
- 
