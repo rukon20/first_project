@@ -1,0 +1,26 @@
+small{
+    color: dodgerblue;
+}
+
+.blog{
+    color: slateblue;
+    background-color: blanchedalmond;
+    border: 2px solid rgb(86, 11, 11);
+    border-radius: 10px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    padding: 10px;
+}
+
+.blog-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    }
+
+.blog p{
+    text-align: justify;
+}
+ 
